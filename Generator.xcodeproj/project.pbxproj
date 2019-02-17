@@ -17,6 +17,8 @@
 		8ED62674220C937D00C7D41B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8ED62673220C937D00C7D41B /* Assets.xcassets */; };
 		8ED62677220C937D00C7D41B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8ED62675220C937D00C7D41B /* Main.storyboard */; };
 		8ED62680220C938D00C7D41B /* Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED6267F220C938D00C7D41B /* Generator.swift */; };
+		8EFBE0C2221A06990091697E /* VariationalSeries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFBE0C1221A06990091697E /* VariationalSeries.swift */; };
+		8EFBE0C4221A097F0091697E /* SortedDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFBE0C3221A097F0091697E /* SortedDictionary.swift */; };
 		BBE248848D13A8362FC7B3B8 /* Pods_Generator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79885D2CEEDF6ED9ADE387E3 /* Pods_Generator.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +39,8 @@
 		8ED62678220C937D00C7D41B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8ED62679220C937D00C7D41B /* Generator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Generator.entitlements; sourceTree = "<group>"; };
 		8ED6267F220C938D00C7D41B /* Generator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Generator.swift; sourceTree = "<group>"; };
+		8EFBE0C1221A06990091697E /* VariationalSeries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VariationalSeries.swift; sourceTree = "<group>"; };
+		8EFBE0C3221A097F0091697E /* SortedDictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortedDictionary.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +97,8 @@
 				8EC3122E2219D5B300A9F72D /* FrequencyCalculator.swift */,
 				8EC312302219E4E700A9F72D /* Quantil.swift */,
 				8EC312322219E6ED00A9F72D /* PirsonCharacterCalculator.swift */,
+				8EFBE0C1221A06990091697E /* VariationalSeries.swift */,
+				8EFBE0C3221A097F0091697E /* SortedDictionary.swift */,
 			);
 			path = Generator;
 			sourceTree = "<group>";
@@ -228,10 +234,12 @@
 				8EC3122B2219ABE200A9F72D /* Selection.swift in Sources */,
 				8EC3122F2219D5B300A9F72D /* FrequencyCalculator.swift in Sources */,
 				8ED62680220C938D00C7D41B /* Generator.swift in Sources */,
+				8EFBE0C4221A097F0091697E /* SortedDictionary.swift in Sources */,
 				8EC312332219E6ED00A9F72D /* PirsonCharacterCalculator.swift in Sources */,
 				8EC312312219E4E700A9F72D /* Quantil.swift in Sources */,
 				8ED62672220C937D00C7D41B /* MainViewController.swift in Sources */,
 				8ED62670220C937D00C7D41B /* AppDelegate.swift in Sources */,
+				8EFBE0C2221A06990091697E /* VariationalSeries.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
